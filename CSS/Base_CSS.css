@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    text-emphasis-color: aliceblue;
+    color: red;
+    font-size:smaller;
+}
+
+@font-face {
+    font-family: Soria;
+    src: url("soria-font-webfont.woff")
+}
+
+.choices {
+    width: 100%;
+    height:100%;
+    position:absolute;
+    margin-left:65px;
+    margin-top:20px;
+    font-family: "soriasoria";
+    font-size: 27px;
+    top: 100;
+    left:20;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:red;
+    text-decoration: none;
+    font-family: 'Soria';
+}
+
+a:hover ,a:active {
+    color:rgb(255, 0, 225);
+    text-decoration: none;
+    font-family: "Soria";
+}
