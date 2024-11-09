@@ -1,0 +1,16 @@
+Main Idea: Trolling Text Based Adventure
+Name: DeviousDungeon.Design
+
+Choices are predetermined (2-4 choices per situation) based on the current situation the player is in.
+
+Story begins with the player, an adventurer, hearing a tale of a local dungeon filled with deviously good treasures.  
+You choose to enter the dungeon and find yourself within the dungeon.
+
+Ascii art for the different areas/encounters found within the dungeon, either drawn or generated using online resources such as 
+
+Ending Types: 
+Bad Ending - You get trapped in the dungeon for eternity. 
+Good Ending - You forgor that you were the dungeon master the whole time.  You die, the dungeon is destroyed, and no one is ever trapped within ever again.
+Lazy Ending - You choose not to enter the dungeon.
+
+Use https://www.asciiart.eu/ to get/make ascii art
