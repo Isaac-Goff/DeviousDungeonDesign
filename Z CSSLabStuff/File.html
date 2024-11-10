@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="spinner">
+        <div style="offset:0;"></div>
+        <div style="offset:33; color:black;">Bob Ross</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="spinner"></div>
+    <div class="spinner"></div>
+    <div class="spinner"></div>
+</body>
+
+
+    <style>
+
+        .spinner > * {
+            padding: 4px;
+            border-radius: 4px;
+            animation-name: spinner-anim;
+            animation-delay: var(--offset);
+            animation: 100s forwards infinite spinner-anim ;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes spinner-anim {
+            0% {
+                background-color: black;
+            }
+            100% {
+                background-color: white;
+            }
+        }
+    </style>
+</body>
+</html>
